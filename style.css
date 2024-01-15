@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;0,1000;1,400;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/*Header style starts here*/
+header {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.header {
+    background: #FFF;
+    display: flex;
+}
+
+.Color {
+    color: #FF5400;
+}
+
+.nav-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.nav-img img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.nav-img h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-items {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* section one explore your travel style starts here */
+.contain-explore {
+    /* background-image: url(./image/Group\ 13\ \(1\)\ \(1\).png), url(image/Rectangle\ 2.png); */
+    background-image: url(image/Group\ 13\ \(1\)\ \(1\).png) , url(image/Rectangle\ 2.png);
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contain-explore .explore h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+    margin-bottom: 24px;
+}
+
+.contain-explore .explore p {
+    margin-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contain-explore .search-bar {
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    height: 25px;
+    width: 800px;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.search-bar .select {
+    width: 174px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.search-bar .buttun,
+.buttun2 {
+    width: 174px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FF5400;
+    border-radius: 8px;
+}
+
+/* section two our popular tours style starts here */
+.contain-popular {
+    margin-top: 100px;
+    display: flex;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.contain-popular .popular-text {
+    width: 540px;
+}
+
+.contain-popular .popular-text h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contain-popular .popular-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+
+.contain-popular .popular-text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* section three choose your destination style starts here */
+.contain-destination {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contain-destination .destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.contain-destination .destination-text p {
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contain-destination .destination-img .grid-img1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.contain-destination .destination-img .grid-img2 {
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.contain-destination .destination-img .grid-img3 {
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.contain-destination .destination-img .text-absu {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    justify-content: space-between;
+
+
+}
+
+/* section four why choose us starts here */
+.contain-choose {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+
+}
+
+.contain-choose .choose-title h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contain-choose .choose-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-img .choose-img-box img{
+    width: 64px;
+height: 64px;
+padding: 32px ;
+}
+.choose-img .choose-img-box h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-img .choose-img-box p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    width: 486px;
+    font-weight: 400;
+    line-height: 26px;
+    /* padding-top: 16px; */
+}
+.contain-choose.destination-img{
+    display: flex;
+    padding-bottom: 10px;
+    /* grid-template-rows: repeat(2 , 1fr);
+    gap: 16px; */
+}
+.choose-img .choose-img-box {
+    width: 573px;
+    height: 284px;
+     border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
