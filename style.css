@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;0,1000;1,400;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-* {
+*{
     font-family: 'Mulish', sans-serif;
 }
 
@@ -64,7 +64,6 @@ header {
     margin-right: auto;
 
 }
-
 .contain-explore .explore h1 {
     color: #FFF;
     text-align: center;
@@ -180,7 +179,6 @@ header {
 
 .contain-destination .destination-text p {
     color: rgba(19, 19, 24, 0.70);
-
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
@@ -196,7 +194,8 @@ header {
 
 .text-absu-1 p {
     color: #FFF;
-    /* text-align: center; */
+    text-align: center;
+    margin-top: 125px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
@@ -207,32 +206,29 @@ header {
     border-radius: 16px;
     width: 573px;
     height: 300px;
-    padding: 132px 227px 133px 226px;
     background-repeat: no-repeat;
 }
 
 .text-absu-2 p {
     color: #FFF;
-    /* text-align: center; */
+    text-align: center;
+    margin-top: 125px;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
 }
-
 .text-absu-2 {
     background-image: url(image/Rectangle\ 8.png);
     border-radius: 16px;
     width: 573px;
     height: 300px;
-    padding: 132px 227px 133px 226px;
     background-repeat: no-repeat;
 }
-
 
 .grid-img-2 {
     display: flex;
     gap: 24px;
-    margin-top: -245px;
+    margin-top: 24px;
 }
 
 .text-absu-3 p {
@@ -327,7 +323,6 @@ header {
     background-repeat: no-repeat;
 }
 
-
 /* section four why choose us starts here */
 .contain-choose {
     width: 1170px;
@@ -376,7 +371,6 @@ header {
     line-height: 26px;
 }
 
-
 /* section four why choose us style starts here*/
 .choose-box-1and-2 {
     display: flex;
@@ -423,7 +417,7 @@ header {
 /* section five deals and discounts style starts here */
 .contain-deals {
     margin-top: 100px;
-    width: 1440px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -644,7 +638,6 @@ header {
     display: flex;
     padding-left: 24px;
     gap: 10px;
-
 }
 
 .video-icon-2 {
@@ -673,7 +666,6 @@ header {
     justify-content: space-between;
     gap: 24px;
 }
-
 .newslatter-box h1 {
     color: #131318;
     font-family: Mulish;
